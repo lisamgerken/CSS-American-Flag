@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Pacifico');
+
+h1 {
+	position: relative;
+	text-align: center;
+	font-family: 'Lobster Two', cursive;
+	font-size: 36px;
+	cursor: pointer;
+}
+
+h1:hover + .message {
+	display: block;
+}
+
+.message {
+	background-color: rgb(236, 236, 236);
+	width: 200px;
+	display: none;
+	margin: auto;
+	color: red;
+	height: 50px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 50px;
+	font-family: 'Pacifico', cursive;
+}
+
+#flag {
+	width: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.blue {
+	background-color: #00348c;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto !important;
+	width: 180px;
+	color: #fff;
+	text-align: center;
+	padding: 2px 0 5px 8px !important;
+	padding: 2px 0 5px 0;
+}
+
+.blue p {
+	letter-spacing: 12px;
+	height: 18.7px;
+	font-size: 20px;
+	line-height: 18.7px;
+	margin: 0;
+}
+
+p.stripe {
+	height: 25px;
+	text-align: right;
+	padding: 0 5px;
+	margin: 0;
+}
+
+.red {
+	background-color: #f70029;
+	color: #f70029;
+}
+
+.white {
+	background-color: #fff;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	color: pink;
+	cursor: pointer;
+}
+
+.colonyBox {
+	padding-left: 80px;
+	padding-top: 30px;
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.col {
+	width: 250px;
+	font-family: 'Lobster Two', cursive;
+	font-size: 16px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+img {
+	margin-left: 40px;
+	width: 75px;
+}
